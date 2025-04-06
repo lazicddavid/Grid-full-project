@@ -29,3 +29,19 @@ header .btn-right {
   cursor: pointer;
   background-color: blue;
 }
+
+section {
+  text-align: center;
+}
+
+section h1 {
+  font-size: xx-large;
+}
+
+section p {
+  font-size: large;
+  color: gray;
+}
+
+.skills {
+}
