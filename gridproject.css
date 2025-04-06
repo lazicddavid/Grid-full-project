@@ -43,5 +43,21 @@ section p {
   color: gray;
 }
 
-.skills {
+.grid-skills {
+  border: 1px solid black;
+  height: 400px;
+  width: 800px;
+  display: grid;
+  background-color: antiquewhite;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: lightgray;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
