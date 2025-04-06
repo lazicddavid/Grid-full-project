@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1100px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-left {
+  cursor: pointer;
+}
+
+header .btn-right {
+  border: none;
+  background-color: black;
+  color: #fff;
+  border-radius: 28px;
+  padding: 5px 10px;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.btn-right:hover {
+  cursor: pointer;
+  background-color: blue;
+}
