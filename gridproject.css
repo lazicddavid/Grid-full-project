@@ -4,7 +4,7 @@
 }
 
 body {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 50px auto;
 }
 
@@ -15,12 +15,6 @@ header {
 
 .logo-left {
   cursor: pointer;
-}
-
-.btn-right:hover,
-.btn-footer:hover {
-  cursor: pointer;
-  background-color: blue;
 }
 
 section {
@@ -223,25 +217,26 @@ section p {
 }
 
 .footer {
+  position: relative;
+  display: grid;
+  text-align: left;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto auto;
   background-color: black;
   color: white;
-  padding: 40px;
+  padding: 0 30px;
   border-radius: 12px;
   max-width: 1000px;
   margin: 40px auto;
-  gap: 20px;
-  align-items: start;
 }
 
 .footer-title {
+  padding: 0 30px;
   grid-column: 1 / 3;
   grid-row: 1 / 2;
   text-align: left;
   font-size: 2rem;
   font-weight: bold;
-  margin: 0;
 }
 
 .footer p {
@@ -251,14 +246,6 @@ section p {
   font-size: 1.2rem;
   line-height: 1.5;
   color: gray;
-  margin: 0;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
 }
 
 .btn-footer,
@@ -272,4 +259,28 @@ section p {
   font-weight: bold;
   font-size: medium;
   cursor: pointer;
+}
+
+.btn-right:hover,
+.btn-footer:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.btn5 {
+  position: absolute;
+  top: -150px;
+  transform: translateY(50%);
+  transform: translateX(-50%);
+  align-items: center;
+}
+
+@media all {
 }
