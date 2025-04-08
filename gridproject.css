@@ -281,6 +281,17 @@ section p {
   transform: translateX(-50%);
   align-items: center;
 }
+/*
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
 
-@media all {
-}
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+    width: 100%;
+    margin: 0 auto;
+  }
+}*/
