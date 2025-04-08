@@ -281,6 +281,14 @@ section p {
   transform: translateX(-50%);
   align-items: center;
 }
+
+@media (max-width: 600px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /*
 .arrows1 {
   font-weight: bolder;
