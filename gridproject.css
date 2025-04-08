@@ -282,6 +282,15 @@ section p {
   align-items: center;
 }
 /*
+.arrows1 {
+  font-weight: bolder;
+  font-size: xx-larger;
+  align-items: center;
+  font-
+
+}
+
+
 @media (max-width: 768px) {
   body {
     display: flex;
