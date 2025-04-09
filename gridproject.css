@@ -281,7 +281,7 @@ section p {
   transform: translateX(-50%);
   align-items: center;
 }
-
+/*
 @media screen and (width < 800px) {
   .container {
     display: flex;
@@ -291,5 +291,30 @@ section p {
   .container > * {
     width: 100%;
     margin-bottom: 10px;
+  }
+}
+*/
+@media screen and (width < 800px) {
+  .grid-skills {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    height: auto;
+  }
+
+  .grid-item {
+    grid-column: auto !important;
+    grid-row: auto !important;
+    height: 200px; /* ili po želji */
+  }
+
+  .item-icon {
+    position: static;
+    margin-bottom: 10px;
+  }
+
+  .card-content {
+    position: static;
+    text-align: center;
   }
 }
