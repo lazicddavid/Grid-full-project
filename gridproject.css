@@ -286,5 +286,10 @@ section p {
   .container {
     display: flex;
     flex-direction: column;
-    align-items: center; /
+    align-items: center;
   }
+  .container > * {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
