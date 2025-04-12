@@ -284,6 +284,7 @@ section p {
 
 @media screen and (width < 800px) {
   .grid-skills {
+    padding: 0 20px;
     width: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
